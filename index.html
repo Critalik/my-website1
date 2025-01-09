@@ -23,20 +23,23 @@
             position: relative;
         }
 
-        /* Стили кнопки */
-        #theme-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            padding: 10px 20px;
-            background-color: #e0e0e0;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s, color 0.3s;
-        }
+        header {
+    position: relative; /* Это важно, чтобы кнопка позиционировалась относительно хедера */
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: background-color 0.3s, color 0.3s;
+}
 
         #theme-toggle:hover {
             background-color: #d2d1d1;
@@ -144,3 +147,4 @@
     </script>
 </body>
 </html>
+
