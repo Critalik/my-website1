@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #0000ff, #00ffe1);
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0px 100px rgba(255, 255, 255, 1);
+}
+
+header {
+    background: linear-gradient(to right, #ff0000, #ffb700);
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+header .intro {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+main h2 {
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+ol {
+    margin: 0 0 20px 20px;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+ol li strong {
+    color: #222;
+    font-weight: bold;
+}
+
+footer .intro {
+    text-align: center;
+    color: #252525;
+    font-size: 1.1em;
+    width: 100%;
+    max-width: 100%; 
+    padding: 10px;
+    margin: 20px auto; 
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+
+footer p.intro {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1250px) {
+    header h1 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+    header .intro {
+        text-align: center;
+        color: #666;
+        font-size: 0.9em;
+        width: 80%;
+        padding: 10px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5);
+    }
+    #theme-toggle {
+        position: absolute;
+        top: 10px;
+        right: 16px;
+        padding: 10px 20px;
+        background-color: #e0e0e0;
+        color: #000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    header h1 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+    header .intro {
+        text-align: center;
+        color: #666;
+        font-size: 0.8em;
+        width: 80%;
+        padding: 10px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5);
+    }
+    main h2 {
+        color: #333;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #444;
+        padding-bottom: 5px;
+        font-size: 1.1em;
+    }
+    footer .intro {
+        text-align: center;
+        color: #666;
+        font-size: 0.6em;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+    }
+    #theme-toggle {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        padding: 10px 20px;
+        background-color: #e0e0e0;
+        color: #000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 11px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
+
+@media (max-width: 520px) {
+    header h1 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+    header .intro {
+        text-align: center;
+        color: #666;
+        font-size: 0.5em;
+        width: 80%;
+        padding: 10px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5);
+    }
+    main h2 {
+        color: #333;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #444;
+        padding-bottom: 5px;
+        font-size: 0.8em;
+    }
+    ol li {
+        margin-bottom: 15px;
+        font-size: 0.7em;
+    }
+    footer .intro {
+        text-align: center;
+        color: #666;
+        font-size: 0.4em;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+    }
+    #theme-toggle {
+        position: absolute;
+        top: 6px;
+        right: 10px;
+        padding: 10px 20px;
+        background-color: #e0e0e0;
+        color: #000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 10px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
